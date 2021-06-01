@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <title>RealFoodGame</title>
+</head>
+<body>
+    <div class="container">
+
+        <form class="form " id = "login">
+            <h1 class="form__title"> Login </h1>
+            <div class="form__input-group">
+                <input type="text" id = "uname" class="form__input" autofocus placeholder="Enter username" >
+            </div>
+            <div class="form__input-group">
+                <input type="password" id="pass" class="form__input" autofocus placeholder="password" >
+            </div>
+            <button class="form__button" type="submit" id="logInBtn">Enter</button>
+            <p class="form__text">
+                <a class="form__link" id="linkCreateAccount" >Create account</a>
+            </p>
+
+
+        </form>
+        <form class="form form__hidden" id = "createAccount">
+            <h1 class="form__title"> Create Account </h1>
+            <div class="form__input-group">
+                <input type="text" id = "name" class="form__input" autofocus placeholder="Name">
+            </div>
+            <div class="form__input-group">
+                <input type="text" id = "surname" class="form__input" autofocus placeholder="Surname">
+            </div>
+            <div class="form__input-group">
+                <input type="text" id = "idUser" class="form__input" autofocus placeholder="idUser">
+            </div>
+            <div class="form__input-group">
+                <input type="text"  id = "age" class="form__input" autofocus placeholder="age">
+            </div>
+            <div class="form__input-group">
+                <input type="password" id = "password" class="form__input" autofocus placeholder="password">
+            </div>
+            <div class="form__input-group">
+                <input type="password" id = "password2" class="form__input" autofocus placeholder="Confirm password">
+            </div>
+            <button class="form__button" type="submit" id="signUpBtn">Continue</button>
+            <p class="form__text">
+                <a class="form__link" id="linkLogin" >Already have an account? Log in</a>
+            </p>
+
+
+        </form>
+    </div>
+</body>
+</html>
