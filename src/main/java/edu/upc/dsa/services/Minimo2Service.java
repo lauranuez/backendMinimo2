@@ -25,11 +25,11 @@ public class Minimo2Service {
 
         this.m2 = Minimo2Impl.getInstance();
         if (!this.m2.isDirty() ) {
-            Insignia i1 = new Insignia("El mas jugon", "http://localhost:8080/img/meteorr.png");
-            Insignia i2 = new Insignia("El mas lento", "http://localhost:8080/img/sun.png");
-            Insignia i3 = new Insignia("El mas epico", "http://localhost:8080/img/avatar.png");
-            Insignia i4 = new Insignia("El mas sostenible", "http://localhost:8080/img/avatar.png");
-            Insignia i5 = new Insignia("El mas legendario", "http://localhost:8080/img/avatar.png");
+            Insignia i1 = new Insignia("El mas jugon", "http://10.0.2.2:8080/jugon.png");
+            Insignia i2 = new Insignia("El mas lento", "http://10.0.2.2:8080/lento.png");
+            Insignia i3 = new Insignia("El mas epico", "http://10.0.2.2:8080/epico.png");
+            Insignia i4 = new Insignia("El mas sostenible", "http://10.0.2.2:8080/sostenible.png");
+            Insignia i5 = new Insignia("El mas legendario", "http://10.0.2.2:8080/legendario.png");
 
             m2.addInsignia(i1);
             m2.addInsignia(i2);
